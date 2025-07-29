@@ -1,0 +1,53 @@
+.btn-note-remove,
+.btn-note-close {
+    background-color: rgba(50, 20, 78, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    z-index: 2;
+    position: relative;
+    pointer-events: auto;
+}
+
+.btn-note-remove:hover {
+    background-color: rgba(50, 20, 78, 1);
+}
+
+.btn-note-remove:active {
+    background-color: rgba(50, 20, 78, 0.6);
+}
+.btn-add-new-note {
+    height: 220px;
+    border: none;
+    border-radius: 15px;
+    font-size: 70px;
+    background-color: rgba(211, 183, 237, 0.9);
+    color: transparent;
+    font-weight: 700;
+    -webkit-text-stroke: 2px rgb(50, 20, 78);
+    cursor: pointer;
+}
+
+.btn-add-new-note:hover {
+    outline: 2px solid rgb(50, 20, 78);
+    outline-offset: -2px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.btn-add-new-note:active {
+    transform: scale(0.95);
+    background-color: rgba(233, 209, 255, 0.9);
+}
+
+.btn-add-new-note:focus {
+    outline: 2px solid rgb(50, 20, 78);
+}
+
+.btn-add-new-note.activeByEnter {
+    animation: pressPulse 0.3s ease;
+}

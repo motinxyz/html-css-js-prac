@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: cursive;
+}
+
+.headings {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke: 2px rgba(50, 20, 78, 0.8);
+    text-shadow: 5px 5px 1px rgba(211, 183, 237, 0.9);
+    font-size: xxx-large;
+    padding-top: 15px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(50, 20, 78);
+}

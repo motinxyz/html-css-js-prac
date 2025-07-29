@@ -1,0 +1,28 @@
+.note-toolbar {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 15px 15px;
+    padding: 5px 0 5px 0;
+    text-align: right;
+    border-top: 1px solid rgba(201, 197, 197, 0.7);
+    z-index: 1;
+}
+
+/* .note-container:has(textarea:focus) .note-toolbar { */
+.note-container:focus-within .note-toolbar {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.note-color-picker {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+.white-border {
+    border: 1px solid white !important;
+}
+
+.black-border {
+    border: 1px solid black !important;
+}
+
+.none-border {
+    border: none !important;
+}
+
+/* For dark text on light background */
+.note-dark {
+    color: #ffffff;
+}
+
+.note-light {
+    color: #000000;
+}
+
+.toolbar-dark button,
+.toolbar-dark input {
+    border: 1px solid white;
+}
+
+.toolbar-light button,
+.toolbar-light input {
+    border: none;
+}
